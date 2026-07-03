@@ -712,6 +712,101 @@ td.solarizedlightColor13 {background: #6c71c4;color: #fff;}
 td.solarizedlightColor14 {background: #586e75;color: #000;}
 td.solarizedlightColor15 {background: #002b36;color: #fff;}
 
+
+/* ===== Solarized diagrams — palette + symmetry, rebuilt from the reference PNGs (1em = 10px) ===== */
+.sol-pal{font-size:10px;width:47em;margin:0 0 2.5rem;font-family:'DejaVu Sans',Verdana,sans-serif;color:#657b83;line-height:1;position:relative}
+.sol-pal .sol-row{display:flex;gap:1em}
+.sol-pal .sol-hrow{display:flex;gap:1em;margin:0 0 1em}
+.sol-pal .sol-hgrp{position:relative;text-align:center;padding-bottom:1.1em}
+.sol-pal .w2{width:11em}
+.sol-pal .w4{width:23em}
+.sol-pal .w8{width:47em}
+.sol-pal .sol-hgrp>span{font-size:1.05em;letter-spacing:.02em;white-space:nowrap}
+.sol-pal .sol-brk{position:absolute;left:0;right:0;bottom:.5em;height:0;border-top:1px solid #93a1a1}
+.sol-pal .sol-brk::after{content:"";position:absolute;left:50%;top:0;width:1px;height:.5em;background:#93a1a1}
+.sol-pal .sw{height:5em;display:flex;align-items:center;justify-content:center}
+.sol-pal .sw>span{font-size:.95em}
+.sol-pal .t03,.sol-sym .t03{background:#002b36}
+.sol-pal .t02,.sol-sym .t02{background:#073642}
+.sol-pal .t01,.sol-sym .t01{background:#586e75}
+.sol-pal .t00,.sol-sym .t00{background:#657b83}
+.sol-pal .t0,.sol-sym .t0{background:#839496}
+.sol-pal .t1,.sol-sym .t1{background:#93a1a1}
+.sol-pal .t2,.sol-sym .t2{background:#eee8d5}
+.sol-pal .t3,.sol-sym .t3{background:#fdf6e3}
+.sol-pal .sw.dark>span{color:rgba(255,255,255,.35)}
+.sol-pal .sw.lite>span{color:rgba(0,0,0,.3)}
+.sol-pal .sol-vals{margin:1.3em 0 0}
+.sol-pal .sol-vals>div{width:5em;text-align:center;font-size:1em}
+.sol-pal .sol-lstar{text-align:center;font-size:1em;margin:1em 0 0}
+.sol-pal .sol-accent-hdr{margin:2.6em 0 1em}
+.sol-pal .sol-accents .sw>span{color:rgba(255,255,255,.5)}
+.sol-pal .aY{background:#b58900}
+.sol-pal .aO{background:#cb4b16}
+.sol-pal .aR{background:#dc322f}
+.sol-pal .aM{background:#d33682}
+.sol-pal .aV{background:#6c71c4}
+.sol-pal .aB{background:#268bd2}
+.sol-pal .aC{background:#2aa198}
+.sol-pal .aG{background:#859900}
+.sol-pal .sol-harm{margin:1.3em 0 0}
+.sol-pal .hcell{width:5em;display:flex;flex-direction:column;align-items:center;gap:.7em}
+.sol-pal .hcell>em{font-style:normal;font-size:.95em;white-space:nowrap}
+.sol-pal .glyph{position:relative;width:1.5em;height:1.5em;border:1px solid #657b83;border-radius:50%}
+.sol-pal .glyph>i{position:absolute;left:50%;bottom:50%;width:1px;height:.7em;background:#657b83;transform-origin:bottom center}
+.sol-pal .a0{transform:translateX(-50%) rotate(0deg)}
+.sol-pal .a30{transform:translateX(-50%) rotate(30deg)}
+.sol-pal .a60{transform:translateX(-50%) rotate(60deg)}
+.sol-pal .a90{transform:translateX(-50%) rotate(90deg)}
+.sol-pal .a135{transform:translateX(-50%) rotate(135deg)}
+.sol-pal .a180{transform:translateX(-50%) rotate(180deg)}
+.sol-pal .a225{transform:translateX(-50%) rotate(225deg)}
+.sol-pal .a270{transform:translateX(-50%) rotate(270deg)}
+.sol-pal .a300{transform:translateX(-50%) rotate(300deg)}
+.sol-pal .a330{transform:translateX(-50%) rotate(330deg)}
+.sol-pal .mono{height:.4em;transform:translateX(-50%) rotate(180deg)}
+
+.sol-sym{font-size:10px;position:relative;width:31.6em;height:26em;margin:0 0 2.5rem;color:#657b83;font-family:'DejaVu Sans',Verdana,sans-serif;line-height:1}
+.sol-sym i.sq{position:absolute;width:1.5em;height:1.5em}
+.sol-sym .ln{position:absolute;height:0;border-top:1px solid #839496}
+.sol-sym .lbl{position:absolute;font-size:1em;white-space:nowrap}
+.sol-sym .x1{left:.1em}
+.sol-sym .x2{left:3.1em}
+.sol-sym .x3{left:6.1em}
+.sol-sym .x4{left:9.1em}
+.sol-sym .x5{left:12.1em}
+.sol-sym .x6{left:15.1em}
+.sol-sym .x7{left:18.1em}
+.sol-sym .x8{left:21.1em}
+.sol-sym .yl{top:7.9em}
+.sol-sym .ym{top:11.9em}
+.sol-sym .yd{top:15.9em}
+.sol-sym .sep1{top:10.6em;left:.2em;right:0}
+.sol-sym .sep2{top:14.6em;left:.2em;right:0}
+.sol-sym .b10at{top:0;left:6.1em;width:16.5em}
+.sol-sym .b9at{top:2em;left:9.1em;width:13.5em}
+.sol-sym .b6at{top:4em;left:15.1em;width:7.5em}
+.sol-sym .bat{top:6em;left:18.1em;width:4.5em}
+.sol-sym .bab{top:19.3em;left:.1em;width:4.5em}
+.sol-sym .b6ab{top:21.3em;left:.1em;width:7.5em}
+.sol-sym .b9ab{top:23.3em;left:.1em;width:13.5em}
+.sol-sym .b10ab{top:25.3em;left:.1em;width:16.5em}
+.sol-sym .l10at{top:.15em;left:22.9em}
+.sol-sym .l9at{top:2.15em;left:22.9em}
+.sol-sym .l6at{top:4.15em;left:22.9em}
+.sol-sym .lat{top:6.15em;left:22.9em}
+.sol-sym .lab{top:18em;left:.1em}
+.sol-sym .l6ab{top:20em;left:.1em}
+.sol-sym .l9ab{top:22em;left:.1em}
+.sol-sym .l10ab{top:24em;left:.1em}
+.sol-sym .llight{top:8em;left:25.1em}
+.sol-sym .ldark{top:16em;left:25.1em}
+
+@media (max-width: 1200px), (orientation: portrait) {
+    .sol-pal {font-size: min(10px, calc((100vw - 58px) / 47));}
+    .sol-sym {font-size: min(10px, calc((100vw - 58px) / 31.6));}
+}
+
 /* ubuntu (Ubuntu GNOME) */
 td.ubuntuBackground {background: #300a24;color: #fff;}
 td.ubuntuForeground {background: #ffffff;color: #000;}

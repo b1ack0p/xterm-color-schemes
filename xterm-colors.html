@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>XTerm color schemes</title>
-  <link rel="stylesheet" href="xterm-colors.css?v=9" />
+  <link rel="stylesheet" href="xterm-colors.css?v=10" />
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
 
 </head>
@@ -960,11 +960,65 @@
 
   <h5>Solarized Palette:</h5>
 
-	<img src="./images/solarized-palette.png" alt="Solarized palette" />
+  <div class="sol-pal">
+    <div class="sol-hrow">
+      <div class="sol-hgrp w2"><span>Background Tones</span><i class="sol-brk"></i></div>
+      <div class="sol-hgrp w4"><span>Content Tones</span><i class="sol-brk"></i></div>
+      <div class="sol-hgrp w2"><span>Background Tones</span><i class="sol-brk"></i></div>
+    </div>
+    <div class="sol-row sol-tones">
+      <div class="sw t03 dark"><span>Base03</span></div>
+      <div class="sw t02 dark"><span>Base02</span></div>
+      <div class="sw t01 dark"><span>Base01</span></div>
+      <div class="sw t00 dark"><span>Base00</span></div>
+      <div class="sw t0 dark"><span>Base0</span></div>
+      <div class="sw t1 dark"><span>Base1</span></div>
+      <div class="sw t2 lite"><span>Base2</span></div>
+      <div class="sw t3 lite"><span>Base3</span></div>
+    </div>
+    <div class="sol-row sol-vals"><div>15</div><div>20</div><div>45</div><div>50</div><div>60</div><div>65</div><div>92</div><div>97</div></div>
+    <div class="sol-lstar">L* Lightness (CIELAB)</div>
+    <div class="sol-hrow sol-accent-hdr">
+      <div class="sol-hgrp w8"><span>Accent Colors</span><i class="sol-brk"></i></div>
+    </div>
+    <div class="sol-row sol-accents">
+      <div class="sw aY"><span>Yellow</span></div><div class="sw aO"><span>Orange</span></div>
+      <div class="sw aR"><span>Red</span></div><div class="sw aM"><span>Magenta</span></div>
+      <div class="sw aV"><span>Violet</span></div><div class="sw aB"><span>Blue</span></div>
+      <div class="sw aC"><span>Cyan</span></div><div class="sw aG"><span>Green</span></div>
+    </div>
+    <div class="sol-row sol-harm">
+      <div class="hcell"><span class="glyph"><i class="a180"></i><i class="a30"></i><i class="a330"></i></span><em>Split Comp</em></div>
+      <div class="hcell"><span class="glyph"><i class="a0"></i><i class="a180"></i></span><em>Complement</em></div>
+      <div class="hcell"><span class="glyph"><i class="a180"></i><i class="a60"></i><i class="a300"></i></span><em>Triad</em></div>
+      <div class="hcell"><span class="glyph"><i class="a0"></i><i class="a90"></i><i class="a180"></i><i class="a270"></i></span><em>Tetrad</em></div>
+      <div class="hcell"><span class="glyph"><i class="a0"></i><i class="a180"></i><i class="a135"></i><i class="a225"></i></span><em>Analogous</em></div>
+      <div class="hcell"><span class="glyph"><i class="mono"></i></span><em>Monotone</em></div>
+      <div class="hcell"><span class="glyph"><i class="a0"></i><i class="a180"></i><i class="a135"></i><i class="a225"></i></span><em>Analogous</em></div>
+      <div class="hcell"><span class="glyph"><i class="a0"></i><i class="a90"></i><i class="a180"></i><i class="a270"></i></span><em>Tetrad</em></div>
+    </div>
+  </div>
 
   <h5>Solarized Symmetry:</h5>
 
-	<img src="./images/solarized-sym.png" alt="Solarized symmetry" />
+  <div class="sol-sym">
+    <!-- light mode: cols 3,4,6,7,8 -->
+    <i class="sq yl x3 t01"></i><i class="sq yl x4 t00"></i><i class="sq yl x6 t1"></i><i class="sq yl x7 t2"></i><i class="sq yl x8 t3"></i>
+    <!-- middle: all 8 -->
+    <i class="sq ym x1 t03"></i><i class="sq ym x2 t02"></i><i class="sq ym x3 t01"></i><i class="sq ym x4 t00"></i><i class="sq ym x5 t0"></i><i class="sq ym x6 t1"></i><i class="sq ym x7 t2"></i><i class="sq ym x8 t3"></i>
+    <!-- dark: cols 1,2,3,5,6 -->
+    <i class="sq yd x1 t03"></i><i class="sq yd x2 t02"></i><i class="sq yd x3 t01"></i><i class="sq yd x5 t0"></i><i class="sq yd x6 t1"></i>
+    <!-- separators -->
+    <span class="ln sep1"></span><span class="ln sep2"></span>
+    <!-- top brackets -->
+    <span class="ln b10at"></span><span class="ln b9at"></span><span class="ln b6at"></span><span class="ln bat"></span>
+    <!-- bottom brackets -->
+    <span class="ln bab"></span><span class="ln b6ab"></span><span class="ln b9ab"></span><span class="ln b10ab"></span>
+    <!-- labels -->
+    <span class="lbl l10at">10a</span><span class="lbl l9at">9a</span><span class="lbl l6at">6a</span><span class="lbl lat">a</span>
+    <span class="lbl lab">a</span><span class="lbl l6ab">6a</span><span class="lbl l9ab">9a</span><span class="lbl l10ab">10a</span>
+    <span class="lbl llight">light mode</span><span class="lbl ldark">dark mode</span>
+  </div>
 
   <p><small><em>Solarized color scheme by <a href="https://ethanschoonover.com/solarized/" target="_blank" rel="noopener noreferrer">Ethan Schoonover</a> (ethanschoonover.com/solarized).</em></small></p>
 
