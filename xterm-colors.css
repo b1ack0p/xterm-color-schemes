@@ -375,8 +375,9 @@ td.minecraftColor14 {background: #ffff55;color: #000;}
 td.minecraftColor15 {background: #ffffff;color: #000;}
 
 /* minecraft palette — full reference guide table (replaces the guide image).
-   Left cells carry the bright foreground colour, the four right cells the dim
-   background colour; the § column is black with the code tinted in the row colour. */
+   Each row is filled edge to edge with its foreground colour; every value
+   (foreground + background RGB/hex) is text on that fill, split by light-grey
+   gridlines. Text is white on the dark rows, black on the bright ones. */
 .mc-palette-wrap {
     overflow-x: auto;
     margin: 0 0 2.5rem;
@@ -384,40 +385,35 @@ td.minecraftColor15 {background: #ffffff;color: #000;}
 
 table.mc-palette {
     border-collapse: collapse;
-    border: 1px solid #000;
+    border: 1px solid #a3a9b1;
     font-family: monospace;
     font-size: 0.8rem;
 }
 
 table.mc-palette td {
-    border: 1px solid #000;
-    padding: 0.42em 0.5em;
+    border: 1px solid #a3a9b1;
+    padding: 0.3em 0.6em;
     text-align: center;
     white-space: nowrap;
 }
 
-/* § code column: black backdrop, code drawn in the row's foreground colour. */
-table.mc-palette td.code {background: #000;}
-/* The four right-hand "background colour" cells always read on a dark fill. */
-table.mc-palette td.bg {color: #fff;}
-
-/* Per row: foreground colour (left) + dim background colour (right) + § tint. */
-tr.mcp0 td {background: #000000;color: #fff;} tr.mcp0 td.code {color: #ffffff;} tr.mcp0 td.bg {background: #000000;}
-tr.mcp1 td {background: #0000aa;color: #fff;} tr.mcp1 td.code {color: #0000aa;} tr.mcp1 td.bg {background: #00002a;}
-tr.mcp2 td {background: #00aa00;color: #fff;} tr.mcp2 td.code {color: #00aa00;} tr.mcp2 td.bg {background: #002a00;}
-tr.mcp3 td {background: #00aaaa;color: #fff;} tr.mcp3 td.code {color: #00aaaa;} tr.mcp3 td.bg {background: #002a2a;}
-tr.mcp4 td {background: #aa0000;color: #fff;} tr.mcp4 td.code {color: #aa0000;} tr.mcp4 td.bg {background: #2a0000;}
-tr.mcp5 td {background: #aa00aa;color: #fff;} tr.mcp5 td.code {color: #aa00aa;} tr.mcp5 td.bg {background: #2a002a;}
-tr.mcp6 td {background: #ffaa00;color: #000;} tr.mcp6 td.code {color: #ffaa00;} tr.mcp6 td.bg {background: #2a2a00;}
-tr.mcp7 td {background: #aaaaaa;color: #000;} tr.mcp7 td.code {color: #aaaaaa;} tr.mcp7 td.bg {background: #2a2a2a;}
-tr.mcp8 td {background: #555555;color: #fff;} tr.mcp8 td.code {color: #555555;} tr.mcp8 td.bg {background: #151515;}
-tr.mcp9 td {background: #5555ff;color: #fff;} tr.mcp9 td.code {color: #5555ff;} tr.mcp9 td.bg {background: #15153f;}
-tr.mcpa td {background: #55ff55;color: #000;} tr.mcpa td.code {color: #55ff55;} tr.mcpa td.bg {background: #153f15;}
-tr.mcpb td {background: #55ffff;color: #000;} tr.mcpb td.code {color: #55ffff;} tr.mcpb td.bg {background: #153f3f;}
-tr.mcpc td {background: #ff5555;color: #000;} tr.mcpc td.code {color: #ff5555;} tr.mcpc td.bg {background: #3f1515;}
-tr.mcpd td {background: #ff55ff;color: #000;} tr.mcpd td.code {color: #ff55ff;} tr.mcpd td.bg {background: #3f153f;}
-tr.mcpe td {background: #ffff55;color: #000;} tr.mcpe td.code {color: #ffff55;} tr.mcpe td.bg {background: #3f3f15;}
-tr.mcpf td {background: #ffffff;color: #000;} tr.mcpf td.code {color: #ffffff;} tr.mcpf td.bg {background: #3f3f3f;}
+/* One foreground colour + one contrast text colour per row. */
+tr.mcp0 td {background: #000000;color: #fff;}
+tr.mcp1 td {background: #0000aa;color: #fff;}
+tr.mcp2 td {background: #00aa00;color: #fff;}
+tr.mcp3 td {background: #00aaaa;color: #fff;}
+tr.mcp4 td {background: #aa0000;color: #fff;}
+tr.mcp5 td {background: #aa00aa;color: #fff;}
+tr.mcp6 td {background: #ffaa00;color: #000;}
+tr.mcp7 td {background: #aaaaaa;color: #000;}
+tr.mcp8 td {background: #555555;color: #fff;}
+tr.mcp9 td {background: #5555ff;color: #fff;}
+tr.mcpa td {background: #55ff55;color: #000;}
+tr.mcpb td {background: #55ffff;color: #000;}
+tr.mcpc td {background: #ff5555;color: #000;}
+tr.mcpd td {background: #ff55ff;color: #000;}
+tr.mcpe td {background: #ffff55;color: #000;}
+tr.mcpf td {background: #ffffff;color: #000;}
 
 /* Small or portrait screens: scale the whole table down to fit, no reflow. */
 @media (max-width: 1200px), (orientation: portrait) {
@@ -425,7 +421,7 @@ tr.mcpf td {background: #ffffff;color: #000;} tr.mcpf td.code {color: #ffffff;} 
         overflow-x: hidden;
     }
     table.mc-palette {
-        font-size: min(0.8rem, calc((100vw - 58px) / 48));
+        font-size: min(0.8rem, calc((100vw - 58px) / 50));
     }
 }
 
