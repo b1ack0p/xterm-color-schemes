@@ -539,6 +539,23 @@ tr.green3 {color: #00ff66;}
 tr.blue {color: #00a3dd;}
 tr.phosphorBackground {color: #aaa;}
 
+/* Small or portrait screens: scale the demo box down to fit (no scroll), like the tables. */
+@media (max-width: 1200px), (orientation: portrait) {
+    div.phosphor {
+        overflow-x: hidden;
+        font-size: min(0.85rem, calc((100vw - 56px) / 74));
+        padding: 0.74em 1.47em;
+    }
+    table.phosphor {
+        font-size: inherit;
+    }
+    td.title,
+    td.content,
+    td.rgb {
+        padding: 0.29em 1.18em;
+    }
+}
+
 /* powershell (Windows PowerShell) */
 td.powershellBackground {background: rgb(01,36,86);color: #fff;}
 td.powershellForeground {background: #eeedf0;color: #000;}
