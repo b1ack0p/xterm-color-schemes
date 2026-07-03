@@ -714,7 +714,7 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 
 
 /* ===== Solarized diagrams — palette + symmetry, rebuilt from the reference PNGs (1em = 10px) ===== */
-.sol-pal{font-size:10px;width:47em;margin:0 0 2.5rem;font-family:'DejaVu Sans',Verdana,sans-serif;color:#657b83;line-height:1;position:relative}
+.sol-pal{font-size:10px;width:47em;margin:2rem 0 3.5rem;font-family:'DejaVu Sans',Verdana,sans-serif;color:#657b83;line-height:1;position:relative}
 .sol-pal .sol-row{display:flex;gap:1em}
 .sol-pal .sol-hrow{display:flex;gap:1em;margin:0 0 1em}
 .sol-pal .sol-hgrp{position:relative;text-align:center;padding-bottom:1.1em}
@@ -724,8 +724,8 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-pal .sol-hgrp>span{font-size:1.05em;letter-spacing:.02em;white-space:nowrap}
 .sol-pal .sol-brk{position:absolute;left:0;right:0;bottom:.5em;height:0;border-top:1px solid #93a1a1}
 .sol-pal .sol-brk::after{content:"";position:absolute;left:50%;top:0;width:1px;height:.5em;background:#93a1a1}
-.sol-pal .sw{height:5em;display:flex;align-items:center;justify-content:center}
-.sol-pal .sw>span{font-size:.95em}
+.sol-pal .sw{width:5em;height:5em;display:flex;align-items:flex-end;justify-content:center;padding-bottom:.85em}
+.sol-pal .sw>span{font-size:.95em;white-space:nowrap}
 .sol-pal .t03,.sol-sym .t03{background:#002b36}
 .sol-pal .t02,.sol-sym .t02{background:#073642}
 .sol-pal .t01,.sol-sym .t01{background:#586e75}
@@ -766,7 +766,7 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-pal .a330{transform:translateX(-50%) rotate(330deg)}
 .sol-pal .mono{height:.4em;transform:translateX(-50%) rotate(180deg)}
 
-.sol-sym{font-size:10px;position:relative;width:31.6em;height:26em;margin:0 0 2.5rem;color:#657b83;font-family:'DejaVu Sans',Verdana,sans-serif;line-height:1}
+.sol-sym{font-size:10px;position:relative;width:31.6em;height:26em;margin:2rem 0 3.5rem;color:#657b83;font-family:'DejaVu Sans',Verdana,sans-serif;line-height:1}
 .sol-sym i.sq{position:absolute;width:1.5em;height:1.5em}
 .sol-sym .ln{position:absolute;height:0;border-top:1px solid #839496}
 .sol-sym .lbl{position:absolute;font-size:1em;white-space:nowrap}
@@ -791,10 +791,10 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-sym .b6ab{top:21.3em;left:.1em;width:7.5em}
 .sol-sym .b9ab{top:23.3em;left:.1em;width:13.5em}
 .sol-sym .b10ab{top:25.3em;left:.1em;width:16.5em}
-.sol-sym .l10at{top:.15em;left:22.9em}
-.sol-sym .l9at{top:2.15em;left:22.9em}
-.sol-sym .l6at{top:4.15em;left:22.9em}
-.sol-sym .lat{top:6.15em;left:22.9em}
+.sol-sym .l10at{top:.5em;right:9em}
+.sol-sym .l9at{top:2.5em;right:9em}
+.sol-sym .l6at{top:4.5em;right:9em}
+.sol-sym .lat{top:6.5em;right:9em}
 .sol-sym .lab{top:18em;left:.1em}
 .sol-sym .l6ab{top:20em;left:.1em}
 .sol-sym .l9ab{top:22em;left:.1em}
