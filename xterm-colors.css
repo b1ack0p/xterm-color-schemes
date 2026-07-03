@@ -215,39 +215,49 @@ td.cmykColor14 {background: #00aeef;color: #fff;}
 td.cmykColor15 {background: #ffffff;color: #000;}
 
 /* CMYK Color Model — subtractive-mix diagram rebuilt in CSS (replaces the SVG).
-   Three colour circles (r=74.25px) sit in an equilateral triangle; the pairwise
+   Three colour circles (r=0.7425em) sit in an equilateral triangle; the pairwise
    overlaps and the black centre are drawn as exact regions layered on top using
-   nested circular clips, so every mixed colour matches the source art. */
+   nested circular clips, so every mixed colour matches the source art.
+   All geometry is in em of the figure's own font-size, so shrinking that
+   font-size (below) zooms the whole diagram to fit — same trick as the tables. */
 .cmyk-fig {
     position: relative;
-    width: 300px;
-    height: 300px;
+    font-size: 100px;   /* 1em = 100px: the figure is 3em (300px) at full size */
+    width: 3em;
+    height: 3em;
     margin: 0 0 2.5rem;
 }
 .cmyk-fig span {
     position: absolute;
-    width: 148.5px;
-    height: 148.5px;
+    width: 1.485em;
+    height: 1.485em;
     border-radius: 50%;
 }
 .cmyk-clip {
     overflow: hidden;
 }
 /* base circles */
-.cmyk-cyan {left: 112.875px;top: 107.91px;background: #00aeef;}
-.cmyk-magenta {left: 38.625px;top: 107.91px;background: #ec008c;}
-.cmyk-yellow {left: 75.75px;top: 43.59px;background: #fff200;}
+.cmyk-cyan {left: 1.12875em;top: 1.0791em;background: #00aeef;}
+.cmyk-magenta {left: 0.38625em;top: 1.0791em;background: #ec008c;}
+.cmyk-yellow {left: 0.7575em;top: 0.4359em;background: #fff200;}
 /* pairwise overlaps: clip to the first circle, fill the child with the mix colour */
-.cmyk-red {left: 75.75px;top: 43.59px;}                              /* clip: yellow  */
-.cmyk-red > span {left: -37.125px;top: 64.32px;background: #ed1c24;} /* child: magenta */
-.cmyk-green {left: 75.75px;top: 43.59px;}                            /* clip: yellow  */
-.cmyk-green > span {left: 37.125px;top: 64.32px;background: #00a651;}/* child: cyan    */
-.cmyk-blue {left: 38.625px;top: 107.91px;}                           /* clip: magenta */
-.cmyk-blue > span {left: 74.25px;top: 0;background: #2e3192;}        /* child: cyan    */
+.cmyk-red {left: 0.7575em;top: 0.4359em;}                               /* clip: yellow  */
+.cmyk-red > span {left: -0.37125em;top: 0.6432em;background: #ed1c24;}  /* child: magenta */
+.cmyk-green {left: 0.7575em;top: 0.4359em;}                             /* clip: yellow  */
+.cmyk-green > span {left: 0.37125em;top: 0.6432em;background: #00a651;} /* child: cyan    */
+.cmyk-blue {left: 0.38625em;top: 1.0791em;}                             /* clip: magenta */
+.cmyk-blue > span {left: 0.7425em;top: 0;background: #2e3192;}          /* child: cyan    */
 /* triple overlap → black (yellow ∩ magenta ∩ cyan) via nested clips */
-.cmyk-core {left: 75.75px;top: 43.59px;}                             /* clip: yellow  */
-.cmyk-core > span {left: -37.125px;top: 64.32px;}                    /* clip: magenta */
-.cmyk-core > span > span {left: 74.25px;top: 0;background: #000;}    /* child: cyan    */
+.cmyk-core {left: 0.7575em;top: 0.4359em;}                              /* clip: yellow  */
+.cmyk-core > span {left: -0.37125em;top: 0.6432em;}                     /* clip: magenta */
+.cmyk-core > span > span {left: 0.7425em;top: 0;background: #000;}      /* child: cyan    */
+
+/* Small or portrait screens: shrink the figure's font-size so it zooms to fit. */
+@media (max-width: 1200px), (orientation: portrait) {
+    .cmyk-fig {
+        font-size: min(100px, calc((100vw - 58px) / 3));
+    }
+}
 
 /* cyberpunk (Cyberpunk Neon) */
 td.cyberpunkBackground {background: #0d0221;color: #fff;}
