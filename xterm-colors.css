@@ -214,6 +214,41 @@ td.cmykColor13 {background: #ec008c;color: #fff;}
 td.cmykColor14 {background: #00aeef;color: #fff;}
 td.cmykColor15 {background: #ffffff;color: #000;}
 
+/* CMYK Color Model — subtractive-mix diagram rebuilt in CSS (replaces the SVG).
+   Three colour circles (r=74.25px) sit in an equilateral triangle; the pairwise
+   overlaps and the black centre are drawn as exact regions layered on top using
+   nested circular clips, so every mixed colour matches the source art. */
+.cmyk-fig {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 0 2.5rem;
+}
+.cmyk-fig span {
+    position: absolute;
+    width: 148.5px;
+    height: 148.5px;
+    border-radius: 50%;
+}
+.cmyk-clip {
+    overflow: hidden;
+}
+/* base circles */
+.cmyk-cyan {left: 112.875px;top: 107.91px;background: #00aeef;}
+.cmyk-magenta {left: 38.625px;top: 107.91px;background: #ec008c;}
+.cmyk-yellow {left: 75.75px;top: 43.59px;background: #fff200;}
+/* pairwise overlaps: clip to the first circle, fill the child with the mix colour */
+.cmyk-red {left: 75.75px;top: 43.59px;}                              /* clip: yellow  */
+.cmyk-red > span {left: -37.125px;top: 64.32px;background: #ed1c24;} /* child: magenta */
+.cmyk-green {left: 75.75px;top: 43.59px;}                            /* clip: yellow  */
+.cmyk-green > span {left: 37.125px;top: 64.32px;background: #00a651;}/* child: cyan    */
+.cmyk-blue {left: 38.625px;top: 107.91px;}                           /* clip: magenta */
+.cmyk-blue > span {left: 74.25px;top: 0;background: #2e3192;}        /* child: cyan    */
+/* triple overlap → black (yellow ∩ magenta ∩ cyan) via nested clips */
+.cmyk-core {left: 75.75px;top: 43.59px;}                             /* clip: yellow  */
+.cmyk-core > span {left: -37.125px;top: 64.32px;}                    /* clip: magenta */
+.cmyk-core > span > span {left: 74.25px;top: 0;background: #000;}    /* child: cyan    */
+
 /* cyberpunk (Cyberpunk Neon) */
 td.cyberpunkBackground {background: #0d0221;color: #fff;}
 td.cyberpunkForeground {background: #0abdc6;color: #000;}
