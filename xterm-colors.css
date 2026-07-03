@@ -714,7 +714,7 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 
 
 /* ===== Solarized diagrams — palette + symmetry, rebuilt from the reference PNGs (1em = 10px) ===== */
-.sol-pal{font-size:10px;width:47em;margin:2rem 0 3.5rem;font-family:'DejaVu Sans',Verdana,sans-serif;color:#657b83;line-height:1;position:relative}
+.sol-pal{font-size:12.5px;width:47em;margin:2rem 0 3.5rem;font-family:'DejaVu Sans',Verdana,sans-serif;color:#657b83;line-height:1;position:relative}
 .sol-pal .sol-row{display:flex;gap:1em}
 .sol-pal .sol-hrow{display:flex;gap:1em;margin:0 0 1em}
 .sol-pal .sol-hgrp{position:relative;text-align:center;padding-bottom:1.1em}
@@ -766,7 +766,7 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-pal .a330{transform:translateX(-50%) rotate(330deg)}
 .sol-pal .mono{height:.4em;transform:translateX(-50%) rotate(180deg)}
 
-.sol-sym{font-size:10px;position:relative;width:31.6em;height:26em;margin:2rem 0 3.5rem;color:#657b83;font-family:'DejaVu Sans',Verdana,sans-serif;line-height:1}
+.sol-sym{font-size:12.5px;position:relative;width:31.6em;height:26em;margin:2rem 0 3.5rem;color:#657b83;font-family:'DejaVu Sans',Verdana,sans-serif;line-height:1}
 .sol-sym i.sq{position:absolute;width:1.5em;height:1.5em}
 .sol-sym .ln{position:absolute;height:0;border-top:1px solid #839496}
 .sol-sym .lbl{position:absolute;font-size:1em;white-space:nowrap}
@@ -803,8 +803,8 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-sym .ldark{top:16em;left:25.1em}
 
 @media (max-width: 1200px), (orientation: portrait) {
-    .sol-pal {font-size: min(10px, calc((100vw - 58px) / 47));}
-    .sol-sym {font-size: min(10px, calc((100vw - 58px) / 31.6));}
+    .sol-pal {font-size: min(12.5px, calc((100vw - 58px) / 47));}
+    .sol-sym {font-size: min(12.5px, calc((100vw - 58px) / 31.6));}
 }
 
 /* ubuntu (Ubuntu GNOME) */
