@@ -736,7 +736,8 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-pal .sw.dark>span{color:rgba(255,255,255,.35)}
 .sol-pal .sw.lite>span{color:rgba(0,0,0,.3)}
 .sol-pal .sol-vals{margin:.9em 0 0}
-.sol-pal .sol-vals>div{width:5em;text-align:center;font-size:.82em}
+.sol-pal .sol-vals>div{width:5em;text-align:center}
+.sol-pal .sol-vals>div>span{font-size:.82em}
 .sol-pal .sol-lstar{text-align:center;font-size:.82em;margin:1.1em 0 0}
 .sol-pal .sol-accent-hdr{margin:3.6em 0 .9em}
 .sol-pal .sol-accents .sw>span{color:rgba(255,255,255,.5)}
