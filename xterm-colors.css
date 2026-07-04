@@ -114,105 +114,38 @@ img {
     }
 }
 
-/* batman (Batman) */
-td.batmanBackground {background: #1b1d1e;color: #fff;}
-td.batmanForeground {background: #6f6f6f;color: #000;}
-td.batmanColor0 {background: #1b1d1e;color: #fff;}
-td.batmanColor1 {background: #e6dc44;color: #000;}
-td.batmanColor2 {background: #c8be46;color: #000;}
-td.batmanColor3 {background: #f4fd22;color: #000;}
-td.batmanColor4 {background: #737174;color: #fff;}
-td.batmanColor5 {background: #747271;color: #fff;}
-td.batmanColor6 {background: #62605f;color: #fff;}
-td.batmanColor7 {background: #c6c5bf;color: #000;}
-td.batmanColor8 {background: #505354;color: #fff;}
-td.batmanColor9 {background: #fff78e;color: #000;}
-td.batmanColor10 {background: #fff27d;color: #000;}
-td.batmanColor11 {background: #feed6c;color: #000;}
-td.batmanColor12 {background: #919495;color: #000;}
-td.batmanColor13 {background: #9a9a9d;color: #000;}
-td.batmanColor14 {background: #a3a3a6;color: #000;}
-td.batmanColor15 {background: #dadbd6;color: #000;}
-
-/* blueprint (Blueprint) */
-td.blueprintBackground {background: #0e3a6b;color: #fff;}
-td.blueprintForeground {background: #ffffff;color: #000;}
-td.blueprintColor0 {background: #07223f;color: #fff;}
-td.blueprintColor1 {background: #2e5680;color: #fff;}
-td.blueprintColor2 {background: #466e96;color: #fff;}
-td.blueprintColor3 {background: #5e86ac;color: #fff;}
-td.blueprintColor4 {background: #3a628c;color: #fff;}
-td.blueprintColor5 {background: #527aa2;color: #fff;}
-td.blueprintColor6 {background: #6a92b8;color: #fff;}
-td.blueprintColor7 {background: #c3d5e8;color: #000;}
-td.blueprintColor8 {background: #143f6e;color: #fff;}
-td.blueprintColor9 {background: #426a94;color: #fff;}
-td.blueprintColor10 {background: #5a82aa;color: #fff;}
-td.blueprintColor11 {background: #729ac0;color: #000;}
-td.blueprintColor12 {background: #4e76a0;color: #fff;}
-td.blueprintColor13 {background: #668eb6;color: #fff;}
-td.blueprintColor14 {background: #7ea6cc;color: #000;}
-td.blueprintColor15 {background: #ffffff;color: #000;}
-
-/* c64.16color (Commodore 64 16-color) */
-td.c6416colorBackground {background: #2e2c9b;color: #fff;}
-td.c6416colorForeground {background: #706deb;color: #fff;}
-td.c6416colorColor0 {background: #000000;color: #fff;}
-td.c6416colorColor1 {background: #ffffff;color: #000;}
-td.c6416colorColor2 {background: #813338;color: #fff;}
-td.c6416colorColor3 {background: #75cec8;color: #000;}
-td.c6416colorColor4 {background: #8e3c97;color: #fff;}
-td.c6416colorColor5 {background: #56ac4d;color: #fff;}
-td.c6416colorColor6 {background: #706deb;color: #fff;}
-td.c6416colorColor7 {background: #edf171;color: #000;}
-td.c6416colorColor8 {background: #8e5029;color: #fff;}
-td.c6416colorColor9 {background: #553800;color: #fff;}
-td.c6416colorColor10 {background: #c46c71;color: #fff;}
-td.c6416colorColor11 {background: #4a4a4a;color: #fff;}
-td.c6416colorColor12 {background: #7b7b7b;color: #fff;}
-td.c6416colorColor13 {background: #a9ff9f;color: #000;}
-td.c6416colorColor14 {background: #706deb;color: #fff;}
-td.c6416colorColor15 {background: #b2b2b2;color: #000;}
-
-/* c64.8color (Commodore 64 8-color) */
-td.c648colorBackground {background: #2e2c9b;color: #fff;}
-td.c648colorForeground {background: #706deb;color: #fff;}
-td.c648colorColor0 {background: #000000;color: #fff;}
-td.c648colorColor1 {background: #813338;color: #fff;}
-td.c648colorColor2 {background: #56ac4d;color: #fff;}
-td.c648colorColor3 {background: #edf171;color: #000;}
-td.c648colorColor4 {background: #706deb;color: #fff;}
-td.c648colorColor5 {background: #8e3c97;color: #fff;}
-td.c648colorColor6 {background: #75cec8;color: #000;}
-td.c648colorColor7 {background: #ffffff;color: #000;}
-td.c648colorColor8 {background: #000000;color: #fff;}
-td.c648colorColor9 {background: #813338;color: #fff;}
-td.c648colorColor10 {background: #56ac4d;color: #fff;}
-td.c648colorColor11 {background: #edf171;color: #000;}
-td.c648colorColor12 {background: #706deb;color: #fff;}
-td.c648colorColor13 {background: #8e3c97;color: #fff;}
-td.c648colorColor14 {background: #75cec8;color: #000;}
-td.c648colorColor15 {background: #ffffff;color: #000;}
-
-/* cmyk (CMYK) */
-td.cmykBackground {background: #000000;color: #fff;}
-td.cmykForeground {background: #aaaaaa;color: #000;}
-td.cmykColor0 {background: #404040;color: #fff;}
-td.cmykColor1 {background: #ec008c;color: #fff;}
-td.cmykColor2 {background: #fff200;color: #000;}
-td.cmykColor3 {background: #fff200;color: #000;}
-td.cmykColor4 {background: #00aeef;color: #fff;}
-td.cmykColor5 {background: #ec008c;color: #fff;}
-td.cmykColor6 {background: #00aeef;color: #fff;}
-td.cmykColor7 {background: #ffffff;color: #000;}
-td.cmykColor8 {background: #808080;color: #fff;}
-td.cmykColor9 {background: #ec008c;color: #fff;}
-td.cmykColor10 {background: #fff200;color: #000;}
-td.cmykColor11 {background: #fff200;color: #000;}
-td.cmykColor12 {background: #00aeef;color: #fff;}
-td.cmykColor13 {background: #ec008c;color: #fff;}
-td.cmykColor14 {background: #00aeef;color: #fff;}
-td.cmykColor15 {background: #ffffff;color: #000;}
+/* Color-scheme grids: msgcat-style foreground x background matrix per scheme. */
+.grid {
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 8px;
+    padding: 9px 11px;
+    margin: 0 0 1.6rem;
+    font-family: monospace;
+    font-size: 0.72rem;
+    line-height: 1.3;
+}
+.grid table {
+    border-collapse: separate;
+    border-spacing: 1px;
+    border: none;
+    margin: 0;
+    table-layout: auto;
+}
+.grid td {
+    border: none;
+    padding: 1px 5px;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+}
+.grid td.gl { text-align: right; padding: 1px 7px 1px 0; opacity: 0.6; border-radius: 0; }
+.grid td.gh { opacity: 0.6; }
+/* Small or portrait screens: shrink the grid so it fits without scrolling. */
+@media (max-width: 1200px), (orientation: portrait) {
+    .grid { overflow-x: hidden; font-size: min(0.72rem, calc((100vw - 58px) / 60)); }
+}
 
 /* CMYK Color Model — subtractive-mix diagram rebuilt in CSS (replaces the SVG).
    Three colour circles (r=0.7425em) sit in an equilateral triangle; the pairwise
@@ -258,166 +191,6 @@ td.cmykColor15 {background: #ffffff;color: #000;}
         font-size: min(125px, calc((100vw - 58px) / 3));
     }
 }
-
-/* cyberpunk (Cyberpunk Neon) */
-td.cyberpunkBackground {background: #0d0221;color: #fff;}
-td.cyberpunkForeground {background: #0abdc6;color: #000;}
-td.cyberpunkColor0 {background: #0d0221;color: #fff;}
-td.cyberpunkColor1 {background: #ff2740;color: #fff;}
-td.cyberpunkColor2 {background: #00ff5f;color: #000;}
-td.cyberpunkColor3 {background: #f9f002;color: #000;}
-td.cyberpunkColor4 {background: #0a84ff;color: #fff;}
-td.cyberpunkColor5 {background: #ea00d9;color: #fff;}
-td.cyberpunkColor6 {background: #08f7fe;color: #000;}
-td.cyberpunkColor7 {background: #d7d7f5;color: #000;}
-td.cyberpunkColor8 {background: #3b3b6d;color: #fff;}
-td.cyberpunkColor9 {background: #ff4d5e;color: #000;}
-td.cyberpunkColor10 {background: #4dff8f;color: #000;}
-td.cyberpunkColor11 {background: #fbff4d;color: #000;}
-td.cyberpunkColor12 {background: #5ca9ff;color: #000;}
-td.cyberpunkColor13 {background: #ff5ff1;color: #000;}
-td.cyberpunkColor14 {background: #62fdff;color: #000;}
-td.cyberpunkColor15 {background: #ffffff;color: #000;}
-
-/* dos (MS-DOS) */
-td.dosBackground {background: #000000;color: #fff;}
-td.dosForeground {background: #aaaaaa;color: #000;}
-td.dosColor0 {background: #000000;color: #fff;}
-td.dosColor1 {background: #0000aa;color: #fff;}
-td.dosColor2 {background: #00aa00;color: #fff;}
-td.dosColor3 {background: #00aaaa;color: #fff;}
-td.dosColor4 {background: #aa0000;color: #fff;}
-td.dosColor5 {background: #aa00aa;color: #fff;}
-td.dosColor6 {background: #aa5500;color: #fff;}
-td.dosColor7 {background: #aaaaaa;color: #000;}
-td.dosColor8 {background: #555555;color: #fff;}
-td.dosColor9 {background: #5555ff;color: #fff;}
-td.dosColor10 {background: #55ff55;color: #000;}
-td.dosColor11 {background: #55ffff;color: #000;}
-td.dosColor12 {background: #ff5555;color: #fff;}
-td.dosColor13 {background: #ff55ff;color: #000;}
-td.dosColor14 {background: #ffff55;color: #000;}
-td.dosColor15 {background: #ffffff;color: #000;}
-
-/* firefox (Firefox) */
-td.firefoxBackground {background: #0e1011;color: #fff;}
-td.firefoxForeground {background: #7c8fa4;color: #fff;}
-td.firefoxColor0 {background: #002831;color: #fff;}
-td.firefoxColor1 {background: #e63853;color: #fff;}
-td.firefoxColor2 {background: #5eb83c;color: #000;}
-td.firefoxColor3 {background: #a57706;color: #fff;}
-td.firefoxColor4 {background: #359ddf;color: #fff;}
-td.firefoxColor5 {background: #d75cff;color: #000;}
-td.firefoxColor6 {background: #4b73a2;color: #fff;}
-td.firefoxColor7 {background: #dcdcdc;color: #000;}
-td.firefoxColor8 {background: #26444d;color: #fff;}
-td.firefoxColor9 {background: #e1003f;color: #fff;}
-td.firefoxColor10 {background: #1d9000;color: #fff;}
-td.firefoxColor11 {background: #cd9409;color: #000;}
-td.firefoxColor12 {background: #006fc0;color: #fff;}
-td.firefoxColor13 {background: #a200da;color: #fff;}
-td.firefoxColor14 {background: #005794;color: #fff;}
-td.firefoxColor15 {background: #e2e2e2;color: #000;}
-
-/* gameboy (Game Boy DMG) */
-td.gameboyBackground {background: #0f380f;color: #fff;}
-td.gameboyForeground {background: #9bbc0f;color: #000;}
-td.gameboyColor0 {background: #0f380f;color: #fff;}
-td.gameboyColor1 {background: #1e481a;color: #fff;}
-td.gameboyColor2 {background: #2d5824;color: #fff;}
-td.gameboyColor3 {background: #4a722a;color: #fff;}
-td.gameboyColor4 {background: #396625;color: #fff;}
-td.gameboyColor5 {background: #5a8420;color: #fff;}
-td.gameboyColor6 {background: #6f981a;color: #fff;}
-td.gameboyColor7 {background: #8bac0f;color: #000;}
-td.gameboyColor8 {background: #306230;color: #fff;}
-td.gameboyColor9 {background: #3c6a28;color: #fff;}
-td.gameboyColor10 {background: #58851a;color: #fff;}
-td.gameboyColor11 {background: #7ba512;color: #fff;}
-td.gameboyColor12 {background: #4a7622;color: #fff;}
-td.gameboyColor13 {background: #6f981a;color: #fff;}
-td.gameboyColor14 {background: #8bac0f;color: #000;}
-td.gameboyColor15 {background: #9bbc0f;color: #000;}
-
-/* github.dark (GitHub Dark Default) */
-td.githubdarkBackground {background: #0d1117;color: #fff;}
-td.githubdarkForeground {background: #e6edf3;color: #000;}
-td.githubdarkColor0 {background: #484f58;color: #fff;}
-td.githubdarkColor1 {background: #ff7b72;color: #000;}
-td.githubdarkColor2 {background: #3fb950;color: #fff;}
-td.githubdarkColor3 {background: #d29922;color: #000;}
-td.githubdarkColor4 {background: #58a6ff;color: #000;}
-td.githubdarkColor5 {background: #bc8cff;color: #000;}
-td.githubdarkColor6 {background: #39c5cf;color: #000;}
-td.githubdarkColor7 {background: #b1bac4;color: #000;}
-td.githubdarkColor8 {background: #6e7681;color: #fff;}
-td.githubdarkColor9 {background: #ffa198;color: #000;}
-td.githubdarkColor10 {background: #56d364;color: #000;}
-td.githubdarkColor11 {background: #e3b341;color: #000;}
-td.githubdarkColor12 {background: #79c0ff;color: #000;}
-td.githubdarkColor13 {background: #d2a8ff;color: #000;}
-td.githubdarkColor14 {background: #56d4dd;color: #000;}
-td.githubdarkColor15 {background: #ffffff;color: #000;}
-
-/* github.light (GitHub Light Default) */
-td.githublightBackground {background: #ffffff;color: #000;}
-td.githublightForeground {background: #1f2328;color: #fff;}
-td.githublightColor0 {background: #24292f;color: #fff;}
-td.githublightColor1 {background: #cf222e;color: #fff;}
-td.githublightColor2 {background: #116329;color: #fff;}
-td.githublightColor3 {background: #4d2d00;color: #fff;}
-td.githublightColor4 {background: #0969da;color: #fff;}
-td.githublightColor5 {background: #8250df;color: #fff;}
-td.githublightColor6 {background: #1b7c83;color: #fff;}
-td.githublightColor7 {background: #6e7781;color: #fff;}
-td.githublightColor8 {background: #57606a;color: #fff;}
-td.githublightColor9 {background: #a40e26;color: #fff;}
-td.githublightColor10 {background: #1a7f37;color: #fff;}
-td.githublightColor11 {background: #633c01;color: #fff;}
-td.githublightColor12 {background: #218bff;color: #fff;}
-td.githublightColor13 {background: #a475f9;color: #000;}
-td.githublightColor14 {background: #3192aa;color: #fff;}
-td.githublightColor15 {background: #8c959f;color: #000;}
-
-/* hulk (Hulk) */
-td.hulkBackground {background: #1b1d1e;color: #fff;}
-td.hulkForeground {background: #b5b5b5;color: #000;}
-td.hulkColor0 {background: #1b1d1e;color: #fff;}
-td.hulkColor1 {background: #269d1b;color: #000;}
-td.hulkColor2 {background: #13ce30;color: #000;}
-td.hulkColor3 {background: #63e457;color: #000;}
-td.hulkColor4 {background: #2525f5;color: #fff;}
-td.hulkColor5 {background: #641f74;color: #fff;}
-td.hulkColor6 {background: #378ca9;color: #fff;}
-td.hulkColor7 {background: #d9d8d1;color: #000;}
-td.hulkColor8 {background: #505354;color: #fff;}
-td.hulkColor9 {background: #8dff2a;color: #000;}
-td.hulkColor10 {background: #48ff77;color: #000;}
-td.hulkColor11 {background: #3afe16;color: #000;}
-td.hulkColor12 {background: #506b95;color: #fff;}
-td.hulkColor13 {background: #72589d;color: #fff;}
-td.hulkColor14 {background: #4085a6;color: #fff;}
-td.hulkColor15 {background: #e5e6e1;color: #000;}
-
-/* minecraft (Minecraft) */
-td.minecraftBackground {background: #000000;color: #fff;}
-td.minecraftForeground {background: #aaaaaa;color: #000;}
-td.minecraftColor0 {background: #000000;color: #fff;}
-td.minecraftColor1 {background: #0000aa;color: #fff;}
-td.minecraftColor2 {background: #00aa00;color: #000;}
-td.minecraftColor3 {background: #00aaaa;color: #000;}
-td.minecraftColor4 {background: #aa0000;color: #fff;}
-td.minecraftColor5 {background: #aa00aa;color: #fff;}
-td.minecraftColor6 {background: #ffaa00;color: #000;}
-td.minecraftColor7 {background: #aaaaaa;color: #000;}
-td.minecraftColor8 {background: #555555;color: #fff;}
-td.minecraftColor9 {background: #5555ff;color: #000;}
-td.minecraftColor10 {background: #55ff55;color: #000;}
-td.minecraftColor11 {background: #55ffff;color: #000;}
-td.minecraftColor12 {background: #ff5555;color: #fff;}
-td.minecraftColor13 {background: #ff55ff;color: #000;}
-td.minecraftColor14 {background: #ffff55;color: #000;}
-td.minecraftColor15 {background: #ffffff;color: #000;}
 
 /* minecraft palette — full reference guide table (replaces the guide image).
    Each row is filled edge to edge with its foreground colour; every value
@@ -469,126 +242,6 @@ tr.mcpf td {background: #ffffff;color: #000;}
         font-size: min(0.8rem, calc((100vw - 58px) / 50));
     }
 }
-
-/* mono.black (Monochrome white on black) */
-td.monoblackBackground {background: #000000;color: #fff;}
-td.monoblackForeground {background: #ffffff;color: #000;}
-td.monoblackColor0 {background: #000000;color: #fff;}
-td.monoblackColor1 {background: #2e2e2e;color: #fff;}
-td.monoblackColor2 {background: #4a4a4a;color: #fff;}
-td.monoblackColor3 {background: #666666;color: #fff;}
-td.monoblackColor4 {background: #828282;color: #fff;}
-td.monoblackColor5 {background: #9e9e9e;color: #000;}
-td.monoblackColor6 {background: #bababa;color: #000;}
-td.monoblackColor7 {background: #d6d6d6;color: #000;}
-td.monoblackColor8 {background: #1c1c1c;color: #fff;}
-td.monoblackColor9 {background: #3a3a3a;color: #fff;}
-td.monoblackColor10 {background: #565656;color: #fff;}
-td.monoblackColor11 {background: #727272;color: #fff;}
-td.monoblackColor12 {background: #8e8e8e;color: #000;}
-td.monoblackColor13 {background: #aaaaaa;color: #000;}
-td.monoblackColor14 {background: #c6c6c6;color: #000;}
-td.monoblackColor15 {background: #ffffff;color: #000;}
-
-/* mono.white (Monochrome black on white) */
-td.monowhiteBackground {background: #ffffff;color: #000;}
-td.monowhiteForeground {background: #000000;color: #fff;}
-td.monowhiteColor0 {background: #000000;color: #fff;}
-td.monowhiteColor1 {background: #101010;color: #fff;}
-td.monowhiteColor2 {background: #202020;color: #fff;}
-td.monowhiteColor3 {background: #303030;color: #fff;}
-td.monowhiteColor4 {background: #404040;color: #fff;}
-td.monowhiteColor5 {background: #505050;color: #fff;}
-td.monowhiteColor6 {background: #606060;color: #fff;}
-td.monowhiteColor7 {background: #707070;color: #fff;}
-td.monowhiteColor8 {background: #181818;color: #fff;}
-td.monowhiteColor9 {background: #282828;color: #fff;}
-td.monowhiteColor10 {background: #383838;color: #fff;}
-td.monowhiteColor11 {background: #484848;color: #fff;}
-td.monowhiteColor12 {background: #585858;color: #fff;}
-td.monowhiteColor13 {background: #686868;color: #fff;}
-td.monowhiteColor14 {background: #787878;color: #fff;}
-td.monowhiteColor15 {background: #888888;color: #fff;}
-
-/* pepsi (Pepsi) */
-td.pepsiBackground {background: #0e0e96;color: #fff;}
-td.pepsiForeground {background: #ffffff;color: #000;}
-td.pepsiColor0 {background: #000000;color: #fff;}
-td.pepsiColor1 {background: #ff1400;color: #fff;}
-td.pepsiColor2 {background: #ffffff;color: #000;}
-td.pepsiColor3 {background: #ff1400;color: #fff;}
-td.pepsiColor4 {background: #5a5aff;color: #fff;}
-td.pepsiColor5 {background: #ff1400;color: #fff;}
-td.pepsiColor6 {background: #5a5aff;color: #fff;}
-td.pepsiColor7 {background: #ffffff;color: #000;}
-td.pepsiColor8 {background: #5a5aff;color: #fff;}
-td.pepsiColor9 {background: #ff1400;color: #fff;}
-td.pepsiColor10 {background: #ffffff;color: #000;}
-td.pepsiColor11 {background: #ff1400;color: #fff;}
-td.pepsiColor12 {background: #5a5aff;color: #fff;}
-td.pepsiColor13 {background: #ff1400;color: #fff;}
-td.pepsiColor14 {background: #5a5aff;color: #fff;}
-td.pepsiColor15 {background: #ffffff;color: #000;}
-
-/* phosphor.amber (Amber Phosphor) */
-td.phosphoramberBackground {background: #282828;color: #fff;}
-td.phosphoramberForeground {background: #ffb000;color: #000;}
-td.phosphoramberColor0 {background: #664600;color: #fff;}
-td.phosphoramberColor1 {background: #7f5800;color: #fff;}
-td.phosphoramberColor2 {background: #cc8c00;color: #000;}
-td.phosphoramberColor3 {background: #e59e00;color: #000;}
-td.phosphoramberColor4 {background: #664600;color: #fff;}
-td.phosphoramberColor5 {background: #996900;color: #fff;}
-td.phosphoramberColor6 {background: #b27b00;color: #000;}
-td.phosphoramberColor7 {background: #ffb000;color: #000;}
-td.phosphoramberColor8 {background: #664600;color: #fff;}
-td.phosphoramberColor9 {background: #7f5800;color: #fff;}
-td.phosphoramberColor10 {background: #cc8c00;color: #000;}
-td.phosphoramberColor11 {background: #e59e00;color: #000;}
-td.phosphoramberColor12 {background: #664600;color: #fff;}
-td.phosphoramberColor13 {background: #996900;color: #fff;}
-td.phosphoramberColor14 {background: #b27b00;color: #000;}
-td.phosphoramberColor15 {background: #ffb000;color: #000;}
-
-/* phosphor.blue (Blue Phosphor VT101) */
-td.phosphorblueBackground {background: #282828;color: #fff;}
-td.phosphorblueForeground {background: #00a3dd;color: #000;}
-td.phosphorblueColor0 {background: #004158;color: #fff;}
-td.phosphorblueColor1 {background: #00516e;color: #fff;}
-td.phosphorblueColor2 {background: #0082b0;color: #000;}
-td.phosphorblueColor3 {background: #0092c6;color: #000;}
-td.phosphorblueColor4 {background: #004158;color: #fff;}
-td.phosphorblueColor5 {background: #006184;color: #fff;}
-td.phosphorblueColor6 {background: #00729a;color: #000;}
-td.phosphorblueColor7 {background: #00a3dd;color: #000;}
-td.phosphorblueColor8 {background: #004158;color: #fff;}
-td.phosphorblueColor9 {background: #00516e;color: #fff;}
-td.phosphorblueColor10 {background: #0082b0;color: #000;}
-td.phosphorblueColor11 {background: #0092c6;color: #000;}
-td.phosphorblueColor12 {background: #004158;color: #fff;}
-td.phosphorblueColor13 {background: #006184;color: #fff;}
-td.phosphorblueColor14 {background: #00729a;color: #000;}
-td.phosphorblueColor15 {background: #00a3dd;color: #000;}
-
-/* phosphor.green (Green Phosphor) */
-td.phosphorgreenBackground {background: #282828;color: #fff;}
-td.phosphorgreenForeground {background: #33ff33;color: #000;}
-td.phosphorgreenColor0 {background: #146614;color: #fff;}
-td.phosphorgreenColor1 {background: #1a801a;color: #fff;}
-td.phosphorgreenColor2 {background: #29cc29;color: #fff;}
-td.phosphorgreenColor3 {background: #2ee62e;color: #000;}
-td.phosphorgreenColor4 {background: #146614;color: #fff;}
-td.phosphorgreenColor5 {background: #1f991f;color: #fff;}
-td.phosphorgreenColor6 {background: #24b324;color: #fff;}
-td.phosphorgreenColor7 {background: #33ff33;color: #000;}
-td.phosphorgreenColor8 {background: #146614;color: #fff;}
-td.phosphorgreenColor9 {background: #1a801a;color: #fff;}
-td.phosphorgreenColor10 {background: #29cc29;color: #fff;}
-td.phosphorgreenColor11 {background: #2ee62e;color: #000;}
-td.phosphorgreenColor12 {background: #146614;color: #fff;}
-td.phosphorgreenColor13 {background: #1f991f;color: #fff;}
-td.phosphorgreenColor14 {background: #24b324;color: #fff;}
-td.phosphorgreenColor15 {background: #33ff33;color: #000;}
 
 /* Phosphor Color Codes */
 
@@ -650,67 +303,6 @@ tr.phosphorBackground {color: #aaa;}
         padding: 0.29em 1.18em;
     }
 }
-
-/* powershell (Windows PowerShell) */
-td.powershellBackground {background: rgb(01,36,86);color: #fff;}
-td.powershellForeground {background: #eeedf0;color: #000;}
-td.powershellColor0 {background: #000000;color: #fff;}
-td.powershellColor1 {background: #800000;color: #fff;}
-td.powershellColor2 {background: #008000;color: #fff;}
-td.powershellColor3 {background: #808000;color: #fff;}
-td.powershellColor4 {background: #000080;color: #fff;}
-td.powershellColor5 {background: #800080;color: #fff;}
-td.powershellColor6 {background: #008080;color: #fff;}
-td.powershellColor7 {background: #c0c0c0;color: #000;}
-td.powershellColor8 {background: #808080;color: #fff;}
-td.powershellColor9 {background: #ff0000;color: #fff;}
-td.powershellColor10 {background: #00ff00;color: #000;}
-td.powershellColor11 {background: #ffff00;color: #000;}
-td.powershellColor12 {background: #0000ff;color: #fff;}
-td.powershellColor13 {background: #ff00ff;color: #fff;}
-td.powershellColor14 {background: #00ffff;color: #000;}
-td.powershellColor15 {background: #ffffff;color: #000;}
-
-/* solarized.dark (Solarized dark) */
-td.solarizeddarkBackground {background: #002b36;color: #fff;}
-td.solarizeddarkForeground {background: #657b83;color: #000;}
-td.solarizeddarkColor0 {background: #073642;color: #fff;}
-td.solarizeddarkColor1 {background: #dc322f;color: #fff;}
-td.solarizeddarkColor2 {background: #859900;color: #fff;}
-td.solarizeddarkColor3 {background: #b58900;color: #fff;}
-td.solarizeddarkColor4 {background: #268bd2;color: #fff;}
-td.solarizeddarkColor5 {background: #d33682;color: #fff;}
-td.solarizeddarkColor6 {background: #2aa198;color: #fff;}
-td.solarizeddarkColor7 {background: #eee8d5;color: #000;}
-td.solarizeddarkColor8 {background: #002b36;color: #fff;}
-td.solarizeddarkColor9 {background: #cb4b16;color: #fff;}
-td.solarizeddarkColor10 {background: #586e75;color: #000;}
-td.solarizeddarkColor11 {background: #657b83;color: #000;}
-td.solarizeddarkColor12 {background: #839496;color: #fff;}
-td.solarizeddarkColor13 {background: #6c71c4;color: #fff;}
-td.solarizeddarkColor14 {background: #93a1a1;color: #000;}
-td.solarizeddarkColor15 {background: #fdf6e3;color: #000;}
-
-/* solarized.light (Solarized light) */
-td.solarizedlightBackground {background: #fdf6e3;color: #000;}
-td.solarizedlightForeground {background: #839496;color: #000;}
-td.solarizedlightColor0 {background: #eee8d5;color: #000;}
-td.solarizedlightColor1 {background: #dc322f;color: #fff;}
-td.solarizedlightColor2 {background: #859900;color: #fff;}
-td.solarizedlightColor3 {background: #b58900;color: #fff;}
-td.solarizedlightColor4 {background: #268bd2;color: #fff;}
-td.solarizedlightColor5 {background: #d33682;color: #fff;}
-td.solarizedlightColor6 {background: #2aa198;color: #fff;}
-td.solarizedlightColor7 {background: #073642;color: #fff;}
-td.solarizedlightColor8 {background: #fdf6e3;color: #000;}
-td.solarizedlightColor9 {background: #cb4b16;color: #fff;}
-td.solarizedlightColor10 {background: #93a1a1;color: #000;}
-td.solarizedlightColor11 {background: #839496;color: #000;}
-td.solarizedlightColor12 {background: #657b83;color: #fff;}
-td.solarizedlightColor13 {background: #6c71c4;color: #fff;}
-td.solarizedlightColor14 {background: #586e75;color: #000;}
-td.solarizedlightColor15 {background: #002b36;color: #fff;}
-
 
 /* ===== Solarized diagrams — palette + symmetry, rebuilt from the reference PNGs (1em = 10px) ===== */
 .sol-pal{font-size:12.5px;width:47em;margin:2rem 0 3.5rem;font-family:'DejaVu Sans',Verdana,sans-serif;color:#657b83;line-height:1;position:relative}
@@ -807,102 +399,3 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
     .sol-sym {font-size: min(12.5px, calc((100vw - 58px) / 31.6));}
 }
 
-/* ubuntu (Ubuntu GNOME) */
-td.ubuntuBackground {background: #300a24;color: #fff;}
-td.ubuntuForeground {background: #ffffff;color: #000;}
-td.ubuntuColor0 {background: #171421;color: #fff;}
-td.ubuntuColor1 {background: #c01c28;color: #fff;}
-td.ubuntuColor2 {background: #26a269;color: #fff;}
-td.ubuntuColor3 {background: #a2734c;color: #fff;}
-td.ubuntuColor4 {background: #12488b;color: #fff;}
-td.ubuntuColor5 {background: #a347ba;color: #fff;}
-td.ubuntuColor6 {background: #2aa1b3;color: #fff;}
-td.ubuntuColor7 {background: #d0cfcc;color: #000;}
-td.ubuntuColor8 {background: #5e5c64;color: #fff;}
-td.ubuntuColor9 {background: #f66151;color: #fff;}
-td.ubuntuColor10 {background: #33d17a;color: #000;}
-td.ubuntuColor11 {background: #e9ad0c;color: #000;}
-td.ubuntuColor12 {background: #2a7bde;color: #fff;}
-td.ubuntuColor13 {background: #c061cb;color: #fff;}
-td.ubuntuColor14 {background: #33c7de;color: #000;}
-td.ubuntuColor15 {background: #ffffff;color: #000;}
-
-/* vga (VGA) */
-td.vgaBackground {background: #000000;color: #fff;}
-td.vgaForeground {background: #aaaaaa;color: #000;}
-td.vgaColor0 {background: #000000;color: #fff;}
-td.vgaColor1 {background: #aa0000;color: #fff;}
-td.vgaColor2 {background: #00aa00;color: #fff;}
-td.vgaColor3 {background: #aa5500;color: #fff;}
-td.vgaColor4 {background: #0000aa;color: #fff;}
-td.vgaColor5 {background: #aa00aa;color: #fff;}
-td.vgaColor6 {background: #00aaaa;color: #fff;}
-td.vgaColor7 {background: #aaaaaa;color: #000;}
-td.vgaColor8 {background: #555555;color: #fff;}
-td.vgaColor9 {background: #ff5555;color: #fff;}
-td.vgaColor10 {background: #55ff55;color: #000;}
-td.vgaColor11 {background: #ffff55;color: #000;}
-td.vgaColor12 {background: #5555ff;color: #fff;}
-td.vgaColor13 {background: #ff55ff;color: #000;}
-td.vgaColor14 {background: #55ffff;color: #000;}
-td.vgaColor15 {background: #ffffff;color: #000;}
-
-/* vscode (VS Code) */
-td.vscodeBackground {background: #1e1e1e;color: #fff;}
-td.vscodeForeground {background: #cccccc;color: #000;}
-td.vscodeColor0 {background: #000000;color: #fff;}
-td.vscodeColor1 {background: #cd3131;color: #fff;}
-td.vscodeColor2 {background: #0dbc79;color: #fff;}
-td.vscodeColor3 {background: #e5e510;color: #000;}
-td.vscodeColor4 {background: #2472c8;color: #fff;}
-td.vscodeColor5 {background: #bc3fbc;color: #fff;}
-td.vscodeColor6 {background: #11a8cd;color: #fff;}
-td.vscodeColor7 {background: #e5e5e5;color: #000;}
-td.vscodeColor8 {background: #666666;color: #fff;}
-td.vscodeColor9 {background: #f14c4c;color: #fff;}
-td.vscodeColor10 {background: #23d18b;color: #000;}
-td.vscodeColor11 {background: #f5f543;color: #000;}
-td.vscodeColor12 {background: #3b8eea;color: #fff;}
-td.vscodeColor13 {background: #d670d6;color: #000;}
-td.vscodeColor14 {background: #29b8db;color: #000;}
-td.vscodeColor15 {background: #e5e5e5;color: #000;}
-
-/* winterminal (Windows Terminal Campbell) */
-td.winterminalBackground {background: #0c0c0c;color: #fff;}
-td.winterminalForeground {background: #cccccc;color: #000;}
-td.winterminalColor0 {background: #0c0c0c;color: #fff;}
-td.winterminalColor1 {background: #c50f1f;color: #fff;}
-td.winterminalColor2 {background: #13a10e;color: #fff;}
-td.winterminalColor3 {background: #c19c00;color: #fff;}
-td.winterminalColor4 {background: #0037da;color: #fff;}
-td.winterminalColor5 {background: #881798;color: #fff;}
-td.winterminalColor6 {background: #3a96dd;color: #fff;}
-td.winterminalColor7 {background: #cccccc;color: #000;}
-td.winterminalColor8 {background: #767676;color: #fff;}
-td.winterminalColor9 {background: #e74856;color: #fff;}
-td.winterminalColor10 {background: #16c60c;color: #000;}
-td.winterminalColor11 {background: #f9f1a5;color: #000;}
-td.winterminalColor12 {background: #3b78ff;color: #fff;}
-td.winterminalColor13 {background: #b4009e;color: #fff;}
-td.winterminalColor14 {background: #61d6d6;color: #000;}
-td.winterminalColor15 {background: #f2f2f2;color: #000;}
-
-/* xterm.default (Default white on black) */
-td.xtermdefaultBackground {background: #000000;color: #fff;}
-td.xtermdefaultForeground {background: #ffffff;color: #000;}
-td.xtermdefaultColor0 {background: #000000;color: #fff;}
-td.xtermdefaultColor1 {background: #800000;color: #fff;}
-td.xtermdefaultColor2 {background: #008000;color: #fff;}
-td.xtermdefaultColor3 {background: #808000;color: #fff;}
-td.xtermdefaultColor4 {background: #000080;color: #fff;}
-td.xtermdefaultColor5 {background: #800080;color: #fff;}
-td.xtermdefaultColor6 {background: #008080;color: #fff;}
-td.xtermdefaultColor7 {background: #c0c0c0;color: #000;}
-td.xtermdefaultColor8 {background: #808080;color: #fff;}
-td.xtermdefaultColor9 {background: #ff0000;color: #fff;}
-td.xtermdefaultColor10 {background: #00ff00;color: #000;}
-td.xtermdefaultColor11 {background: #ffff00;color: #000;}
-td.xtermdefaultColor12 {background: #0000ff;color: #fff;}
-td.xtermdefaultColor13 {background: #ff00ff;color: #000;}
-td.xtermdefaultColor14 {background: #00ffff;color: #000;}
-td.xtermdefaultColor15 {background: #ffffff;color: #000;}
