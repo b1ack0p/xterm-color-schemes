@@ -121,7 +121,7 @@ img {
     overflow-x: auto;
     margin: 0 0 1.6rem;
     font-family: monospace;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     line-height: 1.4;
 }
 .grid table {
@@ -142,7 +142,7 @@ img {
 .grid tr.gh td { opacity: 0.6; }
 /* Small or portrait screens: shrink the grid so it fits without scrolling. */
 @media (max-width: 1200px), (orientation: portrait) {
-    .grid { overflow-x: hidden; font-size: min(1.5rem, calc((100vw - 58px) / 30)); }
+    .grid { overflow-x: hidden; font-size: min(0.8rem, calc((100vw - 58px) / 36)); }
 }
 
 /* CMYK Color Model — subtractive-mix diagram rebuilt in CSS (replaces the SVG).
