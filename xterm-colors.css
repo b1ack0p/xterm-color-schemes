@@ -56,7 +56,7 @@ nav a {
     margin: 0.25rem 0.5rem 0.25rem 0;
 }
 
-/* Scheme heading, kept tight to its table. */
+/* Scheme heading. */
 h4 {
     margin: 0 0 0.35rem;
 }
@@ -69,49 +69,6 @@ h5 {
 /* Repository link under the page title. */
 p.repo-link {
     margin: 0 0 1.5rem;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 0 2.5rem;
-}
-
-/* Scheme tables: fixed 15ch cells at 0.8rem on standard screens. */
-.table-wrap {
-    overflow-x: auto;
-    margin: 0 0 2.5rem;
-}
-
-.table-wrap table {
-    table-layout: fixed;
-    border-collapse: collapse;
-    border: 1px solid #000;
-    font-family: monospace;
-    font-size: 0.8rem;
-}
-
-.table-wrap td,
-.table-wrap th {
-    width: 15ch;
-    border: 1px solid #000;
-    padding: 0.5rem;
-    text-align: center;
-    white-space: nowrap;
-}
-
-/* Small or portrait screens: scale the whole table down to fit, no reflow. */
-@media (max-width: 1200px), (orientation: portrait) {
-    .table-wrap {
-        overflow-x: hidden;
-    }
-    .table-wrap table {
-        font-size: min(0.8rem, calc((100vw - 58px) / 82));
-    }
-    .table-wrap td,
-    .table-wrap th {
-        padding: 0.625em;
-    }
 }
 
 /* Color-scheme grids: msgcat-style foreground x background matrix per scheme. */
@@ -145,12 +102,9 @@ img {
     .grid { overflow-x: hidden; font-size: min(0.8rem, calc((100vw - 58px) / 30)); }
 }
 
-/* CMYK Color Model — subtractive-mix diagram rebuilt in CSS (replaces the SVG).
-   Three colour circles (r=0.7425em) sit in an equilateral triangle; the pairwise
-   overlaps and the black centre are drawn as exact regions layered on top using
-   nested circular clips, so every mixed colour matches the source art.
-   All geometry is in em of the figure's own font-size, so shrinking that
-   font-size (below) zooms the whole diagram to fit — same trick as the tables. */
+/* CMYK Color Model: subtractive-mix diagram in pure CSS. Colour circles in an
+   equilateral triangle; pairwise overlaps and the black centre are layered via
+   nested circular clips. Geometry is in em, so font-size scales the figure. */
 .cmyk-fig {
     position: relative;
     font-size: 125px;   /* 1em = 125px: the figure is 3em (375px) at full size */
@@ -190,10 +144,8 @@ img {
     }
 }
 
-/* minecraft palette — full reference guide table (replaces the guide image).
-   Each row is filled edge to edge with its foreground colour; every value
-   (foreground + background RGB/hex) is text on that fill, split by light-grey
-   gridlines. Text is white on the dark rows, black on the bright ones. */
+/* Minecraft palette: each row is filled with its colour; values sit on the fill,
+   split by grey gridlines (white text on dark rows, black on bright). */
 .mc-palette-wrap {
     overflow-x: auto;
     margin: 2rem 0 3.5rem;
@@ -213,7 +165,7 @@ table.mc-palette td {
     white-space: nowrap;
 }
 
-/* One foreground colour + one contrast text colour per row. */
+/* Row fill + contrasting text colour. */
 tr.mcp0 td {background: #000000;color: #fff;}
 tr.mcp1 td {background: #0000aa;color: #fff;}
 tr.mcp2 td {background: #00aa00;color: #fff;}
@@ -241,9 +193,7 @@ tr.mcpf td {background: #ffffff;color: #000;}
     }
 }
 
-/* Phosphor Color Codes */
-
-/* Phosphor demo box: hugs its table on a dark backdrop; scrolls if too narrow. */
+/* Phosphor demo: a table on a dark backdrop; scrolls if too narrow. */
 div.phosphor {
     width: fit-content;
     max-width: 100%;
@@ -302,7 +252,7 @@ tr.phosphorBackground {color: #aaa;}
     }
 }
 
-/* ===== Solarized diagrams — palette + symmetry, rebuilt from the reference PNGs (1em = 10px) ===== */
+/* Solarized diagrams: palette + symmetry (1em = 10px). */
 .sol-pal{font-size:12.5px;width:47em;margin:2rem 0 3.5rem;font-family:'DejaVu Sans',Verdana,sans-serif;color:#657b83;line-height:1;position:relative}
 .sol-pal .sol-row{display:flex;gap:1em}
 .sol-pal .sol-hrow{display:flex;gap:1em;margin:0 0 1em}
@@ -405,7 +355,7 @@ p.meta {
     line-height: 1.4;
 }
 
-/* Cursor-colour hex chip: shown in the scheme's own colours. */
+/* Colour hex chip (cursor / selection). */
 .hex {
     padding: 0 0.35em;
     font-family: monospace;
