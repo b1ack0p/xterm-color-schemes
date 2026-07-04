@@ -222,10 +222,10 @@ td.cmykColor15 {background: #ffffff;color: #000;}
    font-size (below) zooms the whole diagram to fit — same trick as the tables. */
 .cmyk-fig {
     position: relative;
-    font-size: 100px;   /* 1em = 100px: the figure is 3em (300px) at full size */
+    font-size: 125px;   /* 1em = 125px: the figure is 3em (375px) at full size */
     width: 3em;
     height: 3em;
-    margin: 0 0 2.5rem;
+    margin: 2rem 0 3.5rem;
 }
 .cmyk-fig span {
     position: absolute;
@@ -255,7 +255,7 @@ td.cmykColor15 {background: #ffffff;color: #000;}
 /* Small or portrait screens: shrink the figure's font-size so it zooms to fit. */
 @media (max-width: 1200px), (orientation: portrait) {
     .cmyk-fig {
-        font-size: min(100px, calc((100vw - 58px) / 3));
+        font-size: min(125px, calc((100vw - 58px) / 3));
     }
 }
 
@@ -425,7 +425,7 @@ td.minecraftColor15 {background: #ffffff;color: #000;}
    gridlines. Text is white on the dark rows, black on the bright ones. */
 .mc-palette-wrap {
     overflow-x: auto;
-    margin: 0 0 2.5rem;
+    margin: 2rem 0 3.5rem;
 }
 
 table.mc-palette {
@@ -599,11 +599,11 @@ div.phosphor {
     overflow-x: auto;
     background: #282828;
     padding: 10px 20px;
-    margin: 0 0 2.5rem;
+    margin: 2rem 0 3.5rem;
 }
 
 table.phosphor {
-    font-family: monospace;
+    font-family: 'DejaVu Sans', Verdana, Geneva, sans-serif;
     font-size: 0.85rem;
     margin: 0;
     border-collapse: collapse;
@@ -632,14 +632,13 @@ tr.apple2 {color: #33ff33;}
 tr.green2 {color: #00ff33;}
 tr.apple2c {color: #66ff66;}
 tr.green3 {color: #00ff66;}
-tr.blue {color: #00a3dd;}
 tr.phosphorBackground {color: #aaa;}
 
 /* Small or portrait screens: scale the demo box down to fit (no scroll), like the tables. */
 @media (max-width: 1200px), (orientation: portrait) {
     div.phosphor {
         overflow-x: hidden;
-        font-size: min(0.85rem, calc((100vw - 56px) / 74));
+        font-size: min(0.85rem, calc((100vw - 56px) / 60));
         padding: 0.74em 1.47em;
     }
     table.phosphor {
