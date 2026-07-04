@@ -598,13 +598,13 @@ div.phosphor {
     max-width: 100%;
     overflow-x: auto;
     background: #282828;
-    padding: 10px 20px;
+    padding: 12.5px 25px;
     margin: 2rem 0 3.5rem;
 }
 
 table.phosphor {
     font-family: 'DejaVu Sans', Verdana, Geneva, sans-serif;
-    font-size: 0.85rem;
+    font-size: 1.0625rem;
     margin: 0;
     border-collapse: collapse;
     border: none;
@@ -613,14 +613,14 @@ table.phosphor {
 td.title,
 td.content {
     border: none;
-    padding: 4px 16px;
+    padding: 5px 20px;
     text-align: right;
     white-space: nowrap;
 }
 
 td.rgb {
     border: none;
-    padding: 4px 16px;
+    padding: 5px 20px;
     text-align: left;
     white-space: nowrap;
 }
@@ -638,7 +638,7 @@ tr.phosphorBackground {color: #aaa;}
 @media (max-width: 1200px), (orientation: portrait) {
     div.phosphor {
         overflow-x: hidden;
-        font-size: min(0.85rem, calc((100vw - 56px) / 60));
+        font-size: min(1.0625rem, calc((100vw - 56px) / 60));
         padding: 0.74em 1.47em;
     }
     table.phosphor {
@@ -720,11 +720,11 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-pal .w2{width:11em}
 .sol-pal .w4{width:23em}
 .sol-pal .w8{width:47em}
-.sol-pal .sol-hgrp>span{font-size:1.05em;letter-spacing:.02em;white-space:nowrap}
+.sol-pal .sol-hgrp>span{font-size:1.1em;letter-spacing:.02em;white-space:nowrap}
 .sol-pal .sol-brk{position:absolute;left:0;right:0;bottom:.5em;height:0;border-top:1px solid #93a1a1}
 .sol-pal .sol-brk::after{content:"";position:absolute;left:50%;top:0;width:1px;height:.5em;background:#93a1a1}
 .sol-pal .sw{width:5em;height:5em;display:flex;align-items:flex-end;justify-content:center;padding-bottom:.85em}
-.sol-pal .sw>span{font-size:.95em;white-space:nowrap}
+.sol-pal .sw>span{font-size:1em;white-space:nowrap}
 .sol-pal .t03,.sol-sym .t03{background:#002b36}
 .sol-pal .t02,.sol-sym .t02{background:#073642}
 .sol-pal .t01,.sol-sym .t01{background:#586e75}
@@ -735,10 +735,10 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-pal .t3,.sol-sym .t3{background:#fdf6e3}
 .sol-pal .sw.dark>span{color:rgba(255,255,255,.35)}
 .sol-pal .sw.lite>span{color:rgba(0,0,0,.3)}
-.sol-pal .sol-vals{margin:1.3em 0 0}
-.sol-pal .sol-vals>div{width:5em;text-align:center;font-size:1em}
-.sol-pal .sol-lstar{text-align:center;font-size:1em;margin:1em 0 0}
-.sol-pal .sol-accent-hdr{margin:2.6em 0 1em}
+.sol-pal .sol-vals{margin:.9em 0 0}
+.sol-pal .sol-vals>div{width:5em;text-align:center;font-size:.82em}
+.sol-pal .sol-lstar{text-align:center;font-size:.82em;margin:1.1em 0 0}
+.sol-pal .sol-accent-hdr{margin:3.6em 0 .9em}
 .sol-pal .sol-accents .sw>span{color:rgba(255,255,255,.5)}
 .sol-pal .aY{background:#b58900}
 .sol-pal .aO{background:#cb4b16}
@@ -748,9 +748,9 @@ td.solarizedlightColor15 {background: #002b36;color: #fff;}
 .sol-pal .aB{background:#268bd2}
 .sol-pal .aC{background:#2aa198}
 .sol-pal .aG{background:#859900}
-.sol-pal .sol-harm{margin:1.3em 0 0}
-.sol-pal .hcell{width:5em;display:flex;flex-direction:column;align-items:center;gap:.7em}
-.sol-pal .hcell>em{font-style:normal;font-size:.95em;white-space:nowrap}
+.sol-pal .sol-harm{margin:1em 0 0}
+.sol-pal .hcell{width:5em;display:flex;flex-direction:column;align-items:center;gap:1.1em}
+.sol-pal .hcell>em{font-style:normal;font-size:.82em;white-space:nowrap}
 .sol-pal .glyph{position:relative;width:1.5em;height:1.5em;border:1px solid #657b83;border-radius:50%}
 .sol-pal .glyph>i{position:absolute;left:50%;bottom:50%;width:1px;height:.7em;background:#657b83;transform-origin:bottom center}
 .sol-pal .a0{transform:translateX(-50%) rotate(0deg)}
