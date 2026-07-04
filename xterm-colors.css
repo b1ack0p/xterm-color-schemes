@@ -119,32 +119,30 @@ img {
     display: inline-block;
     max-width: 100%;
     overflow-x: auto;
-    border-radius: 8px;
-    padding: 9px 11px;
     margin: 0 0 1.6rem;
     font-family: monospace;
     font-size: 1.5rem;
-    line-height: 1.3;
+    line-height: 1.4;
 }
 .grid table {
-    border-collapse: separate;
-    border-spacing: 1px;
+    border-collapse: collapse;
+    border-spacing: 0;
     border: none;
     margin: 0;
     table-layout: auto;
 }
+/* Seamless vertical colour bands: no borders, no gaps, no rounded boxes. */
 .grid td {
     border: none;
-    padding: 1px 5px;
+    padding: 0 .5em;
     text-align: center;
     white-space: nowrap;
-    border-radius: 2px;
 }
-.grid td.gl { text-align: right; padding: 1px 7px 1px 0; opacity: 0.6; border-radius: 0; }
-.grid td.gh { opacity: 0.6; }
+.grid td.gl { text-align: right; padding: 0 .55em 0 .15em; }
+.grid tr.gh td { opacity: 0.6; }
 /* Small or portrait screens: shrink the grid so it fits without scrolling. */
 @media (max-width: 1200px), (orientation: portrait) {
-    .grid { overflow-x: hidden; font-size: min(1.5rem, calc((100vw - 58px) / 60)); }
+    .grid { overflow-x: hidden; font-size: min(1.5rem, calc((100vw - 58px) / 30)); }
 }
 
 /* CMYK Color Model — subtractive-mix diagram rebuilt in CSS (replaces the SVG).
