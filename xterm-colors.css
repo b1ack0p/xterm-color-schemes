@@ -397,3 +397,17 @@ tr.phosphorBackground {color: #aaa;}
     .sol-sym {font-size: min(12.5px, calc((100vw - 58px) / 31.6));}
 }
 
+/* Font and cursor-color line under each heading. */
+p.meta {
+    margin: 0 0 0.5rem;
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Cursor-colour hex chip: shown in the scheme's own colours. */
+.hex {
+    padding: 0 0.35em;
+    border-radius: 3px;
+    font-family: monospace;
+}
